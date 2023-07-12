@@ -17,6 +17,7 @@ header {
 
 i {
   color: #FFF;
+  margin-left: 10px;
 }
 
 .header-icons a:hover i {
@@ -53,7 +54,7 @@ i {
   margin-top: 14px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .header-content {
     width: 100%;
     flex-direction: column;
@@ -75,6 +76,7 @@ i {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .bg-home {
@@ -137,6 +139,58 @@ i {
   }
   to {
     transform: scale(1.07);
+  }
+}
+@media screen and (max-width: 800px) {
+  .hero {
+    min-height: 60vh;
+  }
+  hi {
+    font-size: 34px;
+    padding: 0 14px;
+    width: 100%;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+}
+.about {
+  background-color: #06121E;
+  overflow: hidden;
+  color: #FFF;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 34px 14px 64px 14px;
+}
+.about-content img {
+  max-width: 570px;
+}
+.about-content .about-content div {
+  flex: 1;
+}
+
+.about-description h2 {
+  font-size: 38px;
+  margin-bottom: 24px;
+}
+.about-description p {
+  margin-bottom: 14px;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 800px) {
+  .about-content {
+    flex-direction: column;
   }
 }
 body {
