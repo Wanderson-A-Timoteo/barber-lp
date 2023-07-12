@@ -231,3 +231,47 @@
   color: $white-normal;
 }
 
+.footer-link {
+  color: $white-normal;
+}
+
+.footer-link:hover {
+  color: $red-light;
+  transition: color 0.8s;
+}
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 15px;
+  right: 24px;
+  z-index: 99;
+
+  img {
+    max-width: 74px;
+    transition: transforn 0.4s;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
+}
+
+.btn-whatsapp .tooltip-whatsapp {
+  visibility: hidden;
+  position: absolute;
+  width: 200px;
+  padding: 6px;
+  border-radius: 8px;
+  top: 25px;
+  left: -205px;
+  background-color: $primary-light;
+  color: $white-light;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.btn-whatsapp:hover .tooltip-whatsapp {
+  visibility: visible;
+  opacity: 1;
+}
