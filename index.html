@@ -34,7 +34,7 @@
     <div class="bg-home">
       <header>
         <nav class="header-content container">
-          <div class="header-icons">
+          <div class="header-icons" data-aos="fade-down">
             <a href="https://www.facebook.com/wanderson.a.timoteo" target="_blank">
               <i class="fa-brands fa-facebook fa-2x"></i>
             </a>
@@ -52,11 +52,17 @@
             </a>
           </div>
 
-          <div class="header-logo">
-            <img src="assets/logo.svg" alt="Logo da barbearia">
+          <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+            <img
+              data-aos="flip-up"
+              data-aos-delay="300"
+              data-aos-duration="1500" 
+              src="assets/logo.svg" 
+              alt="Logo da barbearia"
+            >
           </div>
 
-          <div>
+          <div data-aos="fade-down">
             <a 
               class="header-button" 
               href="https://api.whatsapp.com/send?phone=5565992925286&text=Quero%20fazer%20um%20agendamento!"
@@ -67,9 +73,9 @@
           </div>
         </nav>
 
-        <main class="hero container">
+        <main class="hero container" data-aos="fade-up" data-aos-delay="400">
           <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE</h1>
-          <p>Horário de funcionamento: </p>
+          <p>Horário de atendimento: </p>
           <span>09:00 ás 19:00</span>
           <a 
             class="button-contact" 
@@ -84,16 +90,19 @@
 
     <section class="about">
       <div class="about-content container">
-        <div>
+        <div data-aos="zoom-in" data-aos-delay="100">
           <img src="assets/images.svg" alt="Imagem sobre a barbearia">
         </div>
         
-        <div class="about-description">
+        <div 
+          class="about-description"
+          data-aos="zoom-out" data-aos-delay="250"
+        >
           <h2>Sobre</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas rem accusantium esse culpa provident? Voluptatum sed consectetur eos soluta quasi molestias, iste laboriosam voluptas aliquid, pariatur libero totam eveniet ad!
           </p>
-          <p>Horário de funcionamento: </p>
+          <p>Horário de atendimento: </p>
           <strong>09:00</strong> ás <strong>19:00</strong>
         </div>
       </div>
@@ -108,7 +117,7 @@
       </div>
 
       <section class="haircuts">
-        <div class="haircut">
+        <div class="haircut" data-aos="fade-up" data-aos-delay="150">
           <img src="assets/corte1.png" alt="Corte normal">
           <div class="haircut-info">
             <strong>Corte normal</strong>
@@ -116,7 +125,7 @@
           </div>
         </div>
 
-        <div class="haircut">
+        <div class="haircut" data-aos="fade-up" data-aos-delay="300">
           <img src="assets/corte2.png" alt="Barba completa">
           <div class="haircut-info">
             <strong>Barba completa</strong>
@@ -124,7 +133,7 @@
           </div>
         </div>
 
-        <div class="haircut">
+        <div class="haircut" data-aos="fade-up" data-aos-delay="450">
           <img src="assets/corte3.png" alt="Corte e barba">
           <div class="haircut-info">
             <strong>Corte e barba</strong>
@@ -186,6 +195,8 @@
       class="btn-whatsapp" 
       href="https://api.whatsapp.com/send?phone=5565992925286&text=Quero%20fazer%20um%20agendamento!" 
       target="_blank"
+      data-aos="zoom-in-up"
+      data-aos-delay="400"
     >
       <img src="assets/whatssapp.svg" alt="Botão whatssapp">
       <span class="tooltip-whatsapp">Agende seu horário</span>

@@ -105,12 +105,12 @@
   gap: 14px;
   padding: 34px 14px  64px 14px;
 
-  img {
-    max-width: 570px;
-  }
-
-  .about-content div {
+  div {
     flex: 1;
+
+    img {
+      max-width: 670px;
+    }
   }
 }
 
@@ -231,6 +231,22 @@
   color: $white-normal;
 }
 
+.footer-icons a:hover {
+  i {
+    animation: translateY 0.8s infinite alternate;
+    color: $red-light;;
+  }
+}
+
+@keyframes translateY {
+from {
+  transform: translate(0) scale(1);
+}
+to {
+  transform: translateY(-8px) scale(1.1);
+}
+}
+
 .footer-link {
   color: $white-normal;
 }
@@ -277,5 +293,17 @@
 }
 
 @media screen and (max-width: 800px) {
-  
+  .btn-whatsapp {
+    img {
+      max-width: 64px;
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .btn-whatsapp {
+    img {
+      max-width: 30px;
+    }
+  }
 }
