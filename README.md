@@ -23,6 +23,11 @@
 ## 💻 Projeto
 
 Este projeto consiste em uma landing page desenvolvida para treinar e para aprimorar meus conhecimentos em HTML5, CSS3, Javascript, Sass e Animações com a biblioteca AOS.
+
+#### Acessar Site Dev Barber
+
+**[Clique aqui](https://barber-lp-wanderson-a-timoteo.vercel.app/)**
+
 <br>
 
 ### Seção Home
