@@ -151,7 +151,7 @@ Feito com ♥ by
 
 <div align='center'>
 
-[<img src="https://avatars.githubusercontent.com/u/40473246?v=4" width=115><br><sub>Wanderson A. Timóteo</sub>](https://www.wandersontimoteo.ga/)
+[<img src="https://avatars.githubusercontent.com/u/40473246?v=4" width=115><br><sub>Wanderson A. Timóteo</sub>](https://wanderson-a-timoteo.github.io/my-portfolio-dark-light/)
 
 </div>
 
